@@ -54,6 +54,10 @@ This pipeline acts as an early warning system for customer retention. By evaluat
   <img width="1411" height="495" alt="image" src="https://github.com/user-attachments/assets/fb347993-185c-400a-80fb-e57bd9209393" />
 
 
+  <img width="1009" height="643" alt="image" src="https://github.com/user-attachments/assets/64cbc684-a89e-47c9-9ea6-c63bee8918a0" />
+
+
+
 ## Model Performance & Evaluation Metrics
 * **ROC AUC: 0.6025:** Demonstrates stable baseline discriminative capability between churn and non-churn profiles prior to advanced multi-model tuning.
 * **Sensitivity (Catch Rate): 0.00%:** At a standard default classification threshold of 0.50, the highly imbalanced class structure (30,305 active vs. 600 churned accounts) yields an initial 0% raw catch rate. 
