@@ -27,11 +27,11 @@ The objective of this analysis is to evaluate historical customer characteristic
 **Overview**
 This analysis will establish a robust predictive analytics pipeline to isolate the behavioral triggers that drive subscriber cancellations, focusing on:
 
-- High-Risk Signal Identification: Determining how operational pain points—such as steep overage minutes, equipment aging, or consecutive dropped calls—quantifiably increase a subscriber's statistical odds of churning.
+- High-Risk Signal Identification: Determining how operational pain points, such as steep overage minutes, equipment aging, or consecutive dropped calls, quantifiably increase a subscriber's statistical odds of churning.
 
 - Algorithmic Performance Comparison: Developing and tuning multiple model variations to balance model interpretability (Logistic Regression Logits) against raw predictive power (Random Forest classification metrics).
 
 - Financial & Operational Safeguards: Evaluating the trade-offs between Sensitivity (ensuring the model catches the maximum number of true churners) and Specificity (preventing budget waste on loyal users).
 
 
-These insights will allow Q-Mobile to shift away from costly, reactive discounts and instead deploy automated, behavioral-triggered marketing tracks—such as proactive data plan upgrades or equipment promotions—to secure long-term subscriber loyalty.
+These insights will allow Q-Mobile to shift away from costly, reactive discounts and instead deploy automated, behavioral-triggered marketing tracks, such as proactive data plan upgrades or equipment promotions—to secure long-term subscriber loyalty.
