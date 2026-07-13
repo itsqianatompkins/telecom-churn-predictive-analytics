@@ -41,6 +41,21 @@ These insights will allow Q-Mobile to shift away from costly, reactive discounts
 
 [Q_Mobile_Churn_Analysis.ipynb](https://github.com/user-attachments/files/29971002/Q_Mobile_Churn_Analysis.ipynb)
 
+## Executive Summary: The "So What?"
+This pipeline acts as an early warning system for customer retention. By evaluating behavioral modifications before account expiration, the model shifts retention efforts from a **reactive strategy** (offering discounts at cancellation) to a **proactive strategy** (addressing systemic usage drops early).
+
+### Key Data Insights & Marketing Automations
+* **High-Overage Penalty (Odds Ratio: 1.21):** For every standard deviation increase in monthly overage fees, a customer's odds of churning increase by **21.2%**. 
+  * *Marketing Action:* Triggers an automated, dynamic billing sequence offering a plan upgrade to a higher tier with a "3-month fee waiver" before user frustration peaks.
+* **The Drop-Off Signal (Odds Ratio: 0.83):** The minutes of use change metric (`changem`) possesses an odds ratio of **0.83**, meaning that decreasing usage values directly escalate churn risk. SQL preprocessing highlights that churned users show an average drop-off of **-14.85%** in usage compared to only **-5.33%** for retained users.
+  * *Marketing Action:* Enrolls any subscriber crossing a -10% usage change threshold into an automated re-engagement campaign featuring localized usage rewards or device upgrades.
+
+## Model Performance & Evaluation Metrics
+* **ROC AUC: 0.6025:** Demonstrates stable baseline discriminative capability between churn and non-churn profiles prior to advanced multi-model tuning.
+* **Sensitivity (Catch Rate): 0.00%:** At a standard default classification threshold of 0.50, the highly imbalanced class structure (30,305 active vs. 600 churned accounts) yields an initial 0% raw catch rate. 
+  * *Portfolio Insight:* This metric provides an excellent talking point for your portfolio readme to explain why optimization techniques—such as adjusting classification probability thresholds, class weighting, or tree-based ensemble methods—are vital to unlock true business value for highly skewed datasets.
+* **Specificity: 100.00%:** The default model accurately filters out stable, satisfied users with perfect precision, ensuring zero budget waste on unnecessary promotional distributions to loyal accounts.
+
 
 
 
