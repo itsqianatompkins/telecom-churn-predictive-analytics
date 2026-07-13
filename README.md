@@ -11,11 +11,17 @@ The objective of this analysis is to evaluate historical customer characteristic
 
 **Data Scope & Timeframe**
 --Data Source: Q-Mobile customer profile and behavioral dataset
+
 --Grain: Individual subscriber level
+
 --Sample Size: 30,905 total observations, partitioned into a Training set (21,808 observations / 70%) and a Validation set (9,097 observations / 30%)
+
 --Timeframe: Behavioral data captured over a rolling 4-month period to predict account churn within the subsequent 30 days
+
 --Key Dimensions: Customer Usage & Trends (revenue, minutes of use, overage, roaming), Customer Actions (customer care calls, previous retention desk interactions), Service Quality (dropped, blocked, and unanswered calls), Equipment Characteristics (handset age, web capability, refurbishment status), and Household Demographics (credit rating, occupation, geography)
+
 --Key Metrics: Churn Rate (Target), Odds Ratios, Model Sensitivity (Catch Rate), Specificity (True Negative Rate), and Area Under the ROC Curve (ROC AUC)
+
 --Assumption: Historical behavioral trends over the 4-month window are representative of future cancellation risk patterns across the broader subscriber base
 
 **Overview**
