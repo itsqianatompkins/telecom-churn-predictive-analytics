@@ -1,4 +1,4 @@
-[Q_Mobile_Churn_Analysis.ipynb](https://github.com/user-attachments/files/29971002/Q_Mobile_Churn_Analysis.ipynb)# telecom-churn-predictive-analytics
+# telecom-churn-predictive-analytics
 A predictive churn &amp; retention optimization model utilizing a 30,000+ subscriber telecom dataset. Features SQL engagement analysis, exploratory data analysis (EDA), and machine learning pipelines (Logistic Regression &amp; Random Forests) to translate statistical odds ratios into proactive marketing automation tracks.
 
 <img width="1147" height="642" alt="image" src="https://github.com/user-attachments/assets/0a1be906-e66d-4d44-abcd-ecfb14a3400a" />
@@ -37,8 +37,8 @@ This analysis will establish a robust predictive analytics pipeline to isolate t
 These insights will allow Q-Mobile to shift away from costly, reactive discounts and instead deploy automated, behavioral-triggered marketing tracks, such as proactive data plan upgrades or equipment promotions—to secure long-term subscriber loyalty.
 
 **Technical Documentation: This project portfolio includes comprehensive technical documentation, the raw CSV dataset, an end-to-end Jupyter Notebook analysis, and an interactive Tableau dashboard. 
-[dat_qmobile.csv](https://github.com/user-attachments/files/29970986/dat_qmobile.csv)
-[Uploading Q_Mobile_Churn_Analysis.ipynb…]()
+[dat_qmobile.csv](https://github.com/user-attachments/files/29970986/dat_qmobile.csv) [Q_Mobile_Churn_Analysis.ipynb](https://github.com/user-attachments/files/29971002/Q_Mobile_Churn_Analysis.ipynb)
+
 
 
 
