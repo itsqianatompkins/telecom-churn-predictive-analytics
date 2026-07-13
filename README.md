@@ -41,7 +41,7 @@ These insights will allow Q-Mobile to shift away from costly, reactive discounts
 
 [Q_Mobile_Churn_Analysis.ipynb](https://github.com/user-attachments/files/29971002/Q_Mobile_Churn_Analysis.ipynb)
 
-## Executive Summary: The "So What?"
+## Executive Summary: 
 This pipeline acts as an early warning system for customer retention. By evaluating behavioral modifications before account expiration, the model shifts retention efforts from a **reactive strategy** (offering discounts at cancellation) to a **proactive strategy** (addressing systemic usage drops early).
 
 ### Key Data Insights & Marketing Automations
