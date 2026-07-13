@@ -10,24 +10,28 @@ Q-Mobile, a leading cellphone carriers, faces the critical business challenge of
 The objective of this analysis is to evaluate historical customer characteristics and behaviors to build, validate, and compare predictive classification models (Logistic Regression and Random Forests) that identify high-risk churn signals. By translating model outputs and odds ratios into strategic business insights, this project provides actionable, evidence-based marketing recommendations to proactively mitigate churn and maximize subscriber lifetime value.
 
 **Data Scope & Timeframe**
---Data Source: Q-Mobile customer profile and behavioral dataset
+-Data Source: Q-Mobile customer profile and behavioral dataset
 
---Grain: Individual subscriber level
+-Grain: Individual subscriber level
 
---Sample Size: 30,905 total observations, partitioned into a Training set (21,808 observations / 70%) and a Validation set (9,097 observations / 30%)
+-Sample Size: 30,905 total observations, partitioned into a Training set (21,808 observations / 70%) and a Validation set (9,097 observations / 30%)
 
---Timeframe: Behavioral data captured over a rolling 4-month period to predict account churn within the subsequent 30 days
+-Timeframe: Behavioral data captured over a rolling 4-month period to predict account churn within the subsequent 30 days
 
---Key Dimensions: Customer Usage & Trends (revenue, minutes of use, overage, roaming), Customer Actions (customer care calls, previous retention desk interactions), Service Quality (dropped, blocked, and unanswered calls), Equipment Characteristics (handset age, web capability, refurbishment status), and Household Demographics (credit rating, occupation, geography)
+-Key Dimensions: Customer Usage & Trends (revenue, minutes of use, overage, roaming), Customer Actions (customer care calls, previous retention desk interactions), Service Quality (dropped, blocked, and unanswered calls), Equipment Characteristics (handset age, web capability, refurbishment status), and Household Demographics (credit rating, occupation, geography)
 
---Key Metrics: Churn Rate (Target), Odds Ratios, Model Sensitivity (Catch Rate), Specificity (True Negative Rate), and Area Under the ROC Curve (ROC AUC)
+-Key Metrics: Churn Rate (Target), Odds Ratios, Model Sensitivity (Catch Rate), Specificity (True Negative Rate), and Area Under the ROC Curve (ROC AUC)
 
---Assumption: Historical behavioral trends over the 4-month window are representative of future cancellation risk patterns across the broader subscriber base
+-Assumption: Historical behavioral trends over the 4-month window are representative of future cancellation risk patterns across the broader subscriber base
 
 **Overview**
 This analysis will establish a robust predictive analytics pipeline to isolate the behavioral triggers that drive subscriber cancellations, focusing on:
+
 --High-Risk Signal Identification: Determining how operational pain points—such as steep overage minutes, equipment aging, or consecutive dropped calls—quantifiably increase a subscriber's statistical odds of churning.
+
 --Algorithmic Performance Comparison: Developing and tuning multiple model variations to balance model interpretability (Logistic Regression Logits) against raw predictive power (Random Forest classification metrics).
+
 --Financial & Operational Safeguards: Evaluating the trade-offs between Sensitivity (ensuring the model catches the maximum number of true churners) and Specificity (preventing budget waste on loyal users).
+
 
 These insights will allow Q-Mobile to shift away from costly, reactive discounts and instead deploy automated, behavioral-triggered marketing tracks—such as proactive data plan upgrades or equipment promotions—to secure long-term subscriber loyalty.
