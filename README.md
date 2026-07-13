@@ -10,7 +10,7 @@ Q-Mobile, a leading cellphone carriers, faces the critical business challenge of
 The objective of this analysis is to evaluate historical customer characteristics and behaviors to build, validate, and compare predictive classification models (Logistic Regression and Random Forests) that identify high-risk churn signals. By translating model outputs and odds ratios into strategic business insights, this project provides actionable, evidence-based marketing recommendations to proactively mitigate churn and maximize subscriber lifetime value.
 
 **Data Scope & Timeframe**
--Data Source: Q-Mobile customer profile and behavioral dataset
+- Data Source: Q-Mobile customer profile and behavioral dataset
 
 -Grain: Individual subscriber level
 
