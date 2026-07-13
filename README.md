@@ -49,6 +49,7 @@ This pipeline acts as an early warning system for customer retention. By evaluat
   * *Marketing Action:* Triggers an automated, dynamic billing sequence offering a plan upgrade to a higher tier with a "3-month fee waiver" before user frustration peaks.
 * **The Drop-Off Signal (Odds Ratio: 0.83):** The minutes of use change metric (`changem`) possesses an odds ratio of **0.83**, meaning that decreasing usage values directly escalate churn risk. SQL preprocessing highlights that churned users show an average drop-off of **-14.85%** in usage compared to only **-5.33%** for retained users.
   * *Marketing Action:* Enrolls any subscriber crossing a -10% usage change threshold into an automated re-engagement campaign featuring localized usage rewards or device upgrades.
+    
  
   <img width="1411" height="495" alt="image" src="https://github.com/user-attachments/assets/fb347993-185c-400a-80fb-e57bd9209393" />
 
