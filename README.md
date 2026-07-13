@@ -37,7 +37,9 @@ This analysis will establish a robust predictive analytics pipeline to isolate t
 These insights will allow Q-Mobile to shift away from costly, reactive discounts and instead deploy automated, behavioral-triggered marketing tracks, such as proactive data plan upgrades or equipment promotions—to secure long-term subscriber loyalty.
 
 **Technical Documentation: This project portfolio includes comprehensive technical documentation, the raw CSV dataset, an end-to-end Jupyter Notebook analysis, and an interactive Tableau dashboard. 
-[dat_qmobile.csv](https://github.com/user-attachments/files/29970986/dat_qmobile.csv) [Q_Mobile_Churn_Analysis.ipynb](https://github.com/user-attachments/files/29971002/Q_Mobile_Churn_Analysis.ipynb)
+[dat_qmobile.csv](https://github.com/user-attachments/files/29970986/dat_qmobile.csv)  
+
+[Q_Mobile_Churn_Analysis.ipynb](https://github.com/user-attachments/files/29971002/Q_Mobile_Churn_Analysis.ipynb)
 
 
 
