@@ -49,8 +49,6 @@ These insights will allow Q-Mobile to shift away from costly, reactive discounts
 
 [Q_Mobile_Churn_Analysis.ipynb](https://github.com/user-attachments/files/29971002/Q_Mobile_Churn_Analysis.ipynb)
 
-## Executive Summary: 
-
 ## Executive Summary
 This predictive pipeline serves as an early warning system for subscriber retention. By isolating behavioral friction points up to 90 days before account expiration, the framework shifts operations from a reactive retention model (issuing discounts at the call center) to a proactive, automated intervention strategy.
 
@@ -66,7 +64,6 @@ This predictive pipeline serves as an early warning system for subscriber retent
 * **Specificity:** 100.00% (The model filters out stable, low-risk users with perfect precision, protecting marketing margins from unnecessary promotional distributions).
 
   <img width="1411" height="495" alt="image" src="https://github.com/user-attachments/assets/fb347993-185c-400a-80fb-e57bd9209393" />
-
 
   <img width="1009" height="643" alt="image" src="https://github.com/user-attachments/assets/64cbc684-a89e-47c9-9ea6-c63bee8918a0" />
 
@@ -86,6 +83,14 @@ A drop-off in active talk time is our strongest leading indicator of contract ca
 ## Subscriber Retention Deep-Dive & Action Plan
 
 ### Core Behavioral Risks
+To maximize customer lifetime value, Q-Mobile will deploy automated retention tracks mapped directly to these behavioral signatures.
+
+| Risk Tier   | Core Behavioral Signal                      | Automated Marketing Action & Lifecycle Track               |
+| :---        | :---                                        | :---                                                       |
+| **High Risk**| • Overage > 100 minutes<br>• Usage Change < -10% | **Proactive Tier Upgrade Trigger:**<br>Automatically transition the account to the next highest data/voice tier. Offer a "3-month fee waiver" to remove immediate billing friction while keeping them on a higher contract tier. |
+| **Medium Risk**| • Overage > 50 minutes OR<br>• Usage Change < -5% | **Re-engagement & Value Incentive Campaign:**<br>Deploy targeted app notifications and email flows offering localized rewards, temporary bonus minutes, or free streaming add-on trials to restore daily usage habits. |
+| **Low Risk** | • Stable usage patterns within standard limits | **Standard Retention Pipeline:**<br>Maintain baseline marketing touches, loyalty point accumulations, and scheduled account check-ins without unnecessary margin-eroding discounts. |
+
 1. **Device Longevity (Odds Ratio: 1.36):** Risk increases sharply as a handset passes the 180-to-360-day mark. Subscribers holding older or refurbished hardware (Odds Ratio: 1.17) are 36% more likely to churn than users with newer equipment.
 2. **Predictable Billing Outliers:** Variable monthly overage charges create an erratic billing experience that directly drives cancellation spikes.
 3. **Silent Account Detachment:** Active conversation volume drops significantly months before explicit cancellation occurs, making account contraction the primary indicator of customer friction.
@@ -94,15 +99,6 @@ A drop-off in active talk time is our strongest leading indicator of contract ca
 * **Implement a Device Lifecycle Renewal Program:** Coordinate marketing and supply chain logistics to trigger automated trade-in cycles for accounts crossing the 270-day handset threshold.
 * **Optimize Data Architecture Pipeline:** Direct the data science team to shift modeling weights or adjust the classification cut-off limits away from the default 0.50 threshold to improve true positive catch rates on the skewed training dataset.
 * **Upstream Retention Desk Operations:** Transition customer success workflows entirely away from the reactive discount model. Use the visual metrics within the Tableau Retention Control Center to run proactive outreach campaigns 90 days prior to contract conclusions.
-
-
-To maximize customer lifetime value, Q-Mobile will deploy automated retention tracks mapped directly to these behavioral signatures.
-
-| Risk Tier   | Core Behavioral Signal                      | Automated Marketing Action & Lifecycle Track               |
-| :---        | :---                                        | :---                                                       |
-| **High Risk**| • Overage > 100 minutes<br>• Usage Change < -10% | **Proactive Tier Upgrade Trigger:**<br>Automatically transition the account to the next highest data/voice tier. Offer a "3-month fee waiver" to remove immediate billing friction while keeping them on a higher contract tier. |
-| **Medium Risk**| • Overage > 50 minutes OR<br>• Usage Change < -5% | **Re-engagement & Value Incentive Campaign:**<br>Deploy targeted app notifications and email flows offering localized rewards, temporary bonus minutes, or free streaming add-on trials to restore daily usage habits. |
-| **Low Risk** | • Stable usage patterns within standard limits | **Standard Retention Pipeline:**<br>Maintain baseline marketing touches, loyalty point accumulations, and scheduled account check-ins without unnecessary margin-eroding discounts. |
 
 ## Cross-Functional Recommendations:
 **Product & Data Infrastructure: Fix the Data Imbalance**
