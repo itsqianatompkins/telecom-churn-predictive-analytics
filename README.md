@@ -106,4 +106,3 @@ To maximize customer lifetime value, Q-Mobile will deploy automated retention tr
 ### Customer Experience
 * **Upstream Retention Desk Operations:** Transition customer retention workflows away from reactive discount negotiations at the call center—a process that trains customers to threaten cancellation simply to secure cheaper rates. Instead, leverage the visual metrics within the Tableau Retention Control Center to run proactive customer success outreach 90 days prior to contract conclusions, resolving customer friction while the account relationship is still highly salvageable.```
 
-
