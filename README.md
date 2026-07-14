@@ -83,17 +83,18 @@ A drop-off in active talk time is our strongest leading indicator of contract ca
 ## Subscriber Retention Deep-Dive & Action Plan
 
 ### Core Behavioral Risks
-To maximize customer lifetime value, Q-Mobile will deploy automated retention tracks mapped directly to these behavioral signatures.
+1. **Device Longevity (Odds Ratio: 1.36):** Risk increases sharply as a handset passes the 180-to-360-day mark[cite: 1]. Subscribers holding older equipment are **36% more likely to churn** than users with newer hardware[cite: 1]. If the handset is refurbished (Odds Ratio: 1.17), the odds of churning increase by **17%**[cite: 1].
+2. **Predictable Billing Outliers:** Variable monthly overage charges create an erratic billing experience that directly drives cancellation spikes[cite: 1].
+3. **Silent Account Detachment:** Active conversation volume drops significantly months before explicit cancellation occurs, making account contraction the primary leading indicator of customer friction[cite: 1].
 
-| Risk Tier   | Core Behavioral Signal                      | Automated Marketing Action & Lifecycle Track               |
-| :---        | :---                                        | :---                                                       |
-| **High Risk**| • Overage > 100 minutes<br>• Usage Change < -10% | **Proactive Tier Upgrade Trigger:**<br>Automatically transition the account to the next highest data/voice tier. Offer a "3-month fee waiver" to remove immediate billing friction while keeping them on a higher contract tier. |
-| **Medium Risk**| • Overage > 50 minutes OR<br>• Usage Change < -5% | **Re-engagement & Value Incentive Campaign:**<br>Deploy targeted app notifications and email flows offering localized rewards, temporary bonus minutes, or free streaming add-on trials to restore daily usage habits. |
+### Strategic Action Matrix
+To maximize customer lifetime value, Q-Mobile will deploy automated retention tracks mapped directly to these behavioral signatures[cite: 1].
+
+| Risk Tier | Core Behavioral Signal | Automated Marketing Action & Lifecycle Track |
+| :--- | :--- | :--- |
+| **High Risk** | • Overage > 100 minutes<br>• Usage Change < -10% | **Proactive Tier Upgrade Trigger:**<br>Automatically transition the account to the next highest data/voice tier. Offer a "3-month fee waiver" to remove immediate billing friction while keeping them on a higher contract tier. |
+| **Medium Risk** | • Overage > 50 minutes OR<br>• Usage Change < -5% | **Re-engagement & Value Incentive Campaign:**<br>Deploy targeted app notifications and email flows offering localized rewards, temporary bonus minutes, or free streaming add-on trials to restore daily usage habits. |
 | **Low Risk** | • Stable usage patterns within standard limits | **Standard Retention Pipeline:**<br>Maintain baseline marketing touches, loyalty point accumulations, and scheduled account check-ins without unnecessary margin-eroding discounts. |
-
-1. **Device Longevity (Odds Ratio: 1.36):** Risk increases sharply as a handset passes the 180-to-360-day mark. Subscribers holding older or refurbished hardware (Odds Ratio: 1.17) are 36% more likely to churn than users with newer equipment.
-2. **Predictable Billing Outliers:** Variable monthly overage charges create an erratic billing experience that directly drives cancellation spikes.
-3. **Silent Account Detachment:** Active conversation volume drops significantly months before explicit cancellation occurs, making account contraction the primary indicator of customer friction.
 
 ## Cross-Functional Recommendations
 
