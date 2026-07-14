@@ -95,21 +95,15 @@ To maximize customer lifetime value, Q-Mobile will deploy automated retention tr
 2. **Predictable Billing Outliers:** Variable monthly overage charges create an erratic billing experience that directly drives cancellation spikes.
 3. **Silent Account Detachment:** Active conversation volume drops significantly months before explicit cancellation occurs, making account contraction the primary indicator of customer friction.
 
-## Cross-Functional Recommendations:
-**Product & Data Infrastructure: Fix the Data Imbalance**
-* **Optimize Data Architecture Pipeline:** Direct the data science team to shift modeling weights or adjust the classification cut-off limits away from the default 0.50 threshold to improve true positive catch rates on the skewed training dataset.
-Our baseline model achieved an exceptional 100% Specificity (it perfectly identifies safe, loyal users, guaranteeing zero wasted marketing dollars on accounts that aren't leaving). However, due to severe data skew (30,305 active accounts vs. 600 churned accounts), our initial default threshold caught 0% of true churners.
+## Cross-Functional Recommendations
 
-*Next Step: Data engineering and data science teams must tune the classification probability threshold away from the 0.50 default or introduce synthetic oversampling (SMOTE) to catch the active target audience.*
+### Product & Data Infrastructure
+* **Optimize Data Architecture Pipeline:** Direct the data science team to shift modeling weights or adjust classification cut-off limits away from the default 0.50 threshold. While the baseline model yields 100% specificity (ensuring zero wasted marketing spend on loyal accounts), the severe class skew (30,305 active vs. 600 churned accounts) resulted in an initial 0% raw catch rate. To resolve this imbalance and capture the target audience, next-step technical implementations must integrate synthetic oversampling (SMOTE) or probability threshold tuning before production deployment.
 
-**Marketing & Product Operations:**
-* **Implement a Device Lifecycle Renewal Program:** Coordinate marketing and supply chain logistics to trigger automated trade-in cycles for accounts crossing the 270-day handset threshold.
-Because refurbished devices (refurb | Odds Ratio: 1.17) and device age represent severe structural churn risks, marketing should coordinate with logistics to roll out an automated "Device Lifecycle Renewal Program." Accounts passing the 270-day mark on a single handset should automatically receive targeted trade-in offers or priority upgrades to web-capable devices before contract expiration dates arrive.
+### Marketing & Product Operations
+* **Implement a Device Lifecycle Renewal Program:** Coordinate marketing and supply chain logistics to trigger automated hardware replacement cycles for accounts crossing the 270-day handset threshold. Because refurbished devices (Odds Ratio: 1.17) and overall equipment age represent high-risk churn indicators, accounts with aging hardware should automatically receive targeted trade-in incentives or priority upgrades to modern, web-capable devices before contract expiration.
 
-**Customer Experience: Eliminate Reactive Discount Cycles**
-* **Upstream Retention Desk Operations:** Transition customer success workflows entirely away from the reactive discount model. Use the visual metrics within the Tableau Retention Control Center to run proactive outreach campaigns 90 days prior to contract conclusions.
-Move retention desk efforts entirely upstream. Rather than waiting for a frustrated customer to threaten cancellation at the call center—which simply trains users to fake dissatisfaction for a discount—the team will use our Tableau Retention Control Center to flag high-risk accounts 90 days out, executing customer success outreach while the relationship is healthy.
-
-
+### Customer Experience
+* **Upstream Retention Desk Operations:** Transition customer retention workflows away from reactive discount negotiations at the call center—a process that trains customers to threaten cancellation simply to secure cheaper rates. Instead, leverage the visual metrics within the Tableau Retention Control Center to run proactive customer success outreach 90 days prior to contract conclusions, resolving customer friction while the account relationship is still highly salvageable.```
 
 
