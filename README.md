@@ -80,7 +80,7 @@ For every standard deviation increase in monthly overage minutes, a subscriber's
 **The Engagement Discrepancy (changem & mou | Odds Ratio: 0.83)**:
 A drop-off in active talk time is our strongest leading indicator of contract cancellation. Retained customers maintain a stable baseline with a minor rolling variation of -5.33% in minutes used. Conversely, future churners exhibit an average usage drop of -14.85% over a 4-month window, signaling silent detachment long before they call the retention desk.
 
-## Subscriber Retention Deep-Dive & Action Plan
+## Subscriber Retention Insights & Action Plan
 
 ### Core Behavioral Risks
 1. **Device Longevity (Odds Ratio: 1.36):** Risk increases sharply as a handset passes the 180-to-360-day mark[cite: 1]. Subscribers holding older equipment are **36% more likely to churn** than users with newer hardware[cite: 1]. If the handset is refurbished (Odds Ratio: 1.17), the odds of churning increase by **17%**[cite: 1].
