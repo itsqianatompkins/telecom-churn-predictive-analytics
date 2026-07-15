@@ -3,6 +3,12 @@ A predictive churn &amp; retention optimization model utilizing a 30,000+ subscr
 
 <img width="1147" height="642" alt="image" src="https://github.com/user-attachments/assets/0a1be906-e66d-4d44-abcd-ecfb14a3400a" />
 
+## **Background**
+Q-Mobile, a leading cellphone carrier, faces the critical business challenge of subscriber churn in a highly competitive market. Historically, the company managed customer retention reactively through its call center's retention desk, attempting to persuade customers to stay only after they called to cancel. While "save" rates were high, this reactive approach trained customers to threaten cancellation simply to negotiate discounts, creating an inefficient cycle of desperate concessions. To optimize retention spend and protect margins, Q-Mobile is transitioning to a proactive churn management framework, leveraging predictive analytics to identify at-risk subscribers four months in advance and deploy targeted marketing interventions before customer dissatisfaction peaks.
+
+## **Objective**
+The objective of this analysis is to evaluate historical customer characteristics and behaviors to build, validate, and compare predictive classification models (Logistic Regression and Random Forests) that identify high-risk churn signals. By translating model outputs and odds ratios into strategic business insights, this project provides actionable, evidence-based marketing recommendations to proactively mitigate churn and maximize subscriber lifetime value.
+
 ## Interactive Retention Control Dashboard
 *Click the dashboard link below to explore the interactive, live version on Tableau Public.*
 
@@ -10,12 +16,6 @@ A predictive churn &amp; retention optimization model utilizing a 30,000+ subscr
 
 [Click Here - https://public.tableau.com/views/Q-MobileChurnAnalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
 
-
-## **Background**
-Q-Mobile, a leading cellphone carrier, faces the critical business challenge of subscriber churn in a highly competitive market. Historically, the company managed customer retention reactively through its call center's retention desk, attempting to persuade customers to stay only after they called to cancel. While "save" rates were high, this reactive approach trained customers to threaten cancellation simply to negotiate discounts, creating an inefficient cycle of desperate concessions. To optimize retention spend and protect margins, Q-Mobile is transitioning to a proactive churn management framework, leveraging predictive analytics to identify at-risk subscribers four months in advance and deploy targeted marketing interventions before customer dissatisfaction peaks.
-
-## **Objective**
-The objective of this analysis is to evaluate historical customer characteristics and behaviors to build, validate, and compare predictive classification models (Logistic Regression and Random Forests) that identify high-risk churn signals. By translating model outputs and odds ratios into strategic business insights, this project provides actionable, evidence-based marketing recommendations to proactively mitigate churn and maximize subscriber lifetime value.
 
 ## **Data Scope & Timeframe**
 - Data Source: Q-Mobile customer profile and behavioral dataset
